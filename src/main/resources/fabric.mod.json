@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "slot-command",
+  "version": "${version}",
+  "name": "SlotCommand",
+  "description": "",
+  "authors": [
+    "soy_bottle"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "top.soybottle.slotcommand.SlotCommand"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.11.0",
+    "fabric": "*"
+  }
+}
